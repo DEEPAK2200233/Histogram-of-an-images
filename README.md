@@ -91,9 +91,11 @@ plt.show()
 
 
 ### Histogram Equalization of Grayscale Image.
+![image](https://github.com/user-attachments/assets/e5ef5cac-a13e-4ce0-9afb-0374318c22b6)
+![image](https://github.com/user-attachments/assets/bdf7c032-0c16-41af-9814-7c25a0d78865)
 
-
-
+![image](https://github.com/user-attachments/assets/b3fd6a5a-e811-43b2-89e9-535db9b5e990)
+![image](https://github.com/user-attachments/assets/b28c09fc-af42-446a-a673-a597748c1c6c)
 
 
 ## Result: 
