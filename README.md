@@ -83,8 +83,8 @@ plt.show()
 
 
 ### Histogram of Grayscale Image
-![image](https://github.com/user-attachments/assets/68d932a5-0045-4b53-91fd-686681c6b471)
-![image](https://github.com/user-attachments/assets/1946ff2a-610d-43aa-bf1f-6abea5ada1cf)
+![image](https://github.com/user-attachments/assets/84ef4a89-1fd3-4d8f-9975-fa07c8c6c80f)
+![image](https://github.com/user-attachments/assets/99eb6d15-0228-4fed-8487-1eb5a5a2872a)
 
 ### Histogram Equalization of Grayscale Image.
 ![image](https://github.com/user-attachments/assets/ad397612-ab58-4f71-8bfc-b4cf6f7d92d1)
