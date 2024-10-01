@@ -29,52 +29,47 @@ The Histogram of gray scale image and color image is shown.
 ### Developed By: DEEPAK RAJ S
 ### Register Number: 212222240023
 
+### Colour and Gray Image:
 ```
 import cv2
-image = cv2.imread('kamal1.jpg')
+from matplotlib import pyplot as plt
+# Load the color image
+image = cv2.imread('Spb.jpeg')
+# Convert the image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-cv2.imwrite('kamal2.jpg', gray_image)
-cv2.imshow('Grayscale Image', gray_image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-import numpy as np
-import cv2
-Gray_image = cv2.imread("kamal2.jpg")
-import matplotlib.pyplot as plt
-gray_hist = cv2.calcHist([Gray_image],[0],None,[256],[0,256])
-plt.figure()
-plt.imshow(Gray_image)
-plt.show()
-plt.title("Histogram")
-plt.xlabel("Grayscale Value")
-plt.ylabel("Pixel Count")
-plt.stem(gray_hist)
-plt.show()
-import cv2
-gray_image = cv2.imread("kamal2.jpg",0)
-cv2.imshow('Grey Scale Image',gray_image)
-equ = cv2.equalizeHist(gray_image)
-cv2.imshow("Equalized Image",equ)
-cv2.imwrite("Black.jpg",equ)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-import numpy as np
-import cv2
-import matplotlib.pyplot as plt
-Gray_image = cv2.imread("Grey.jpg", cv2.IMREAD_GRAYSCALE)
-EQU_image = cv2.imread("Black.jpg", cv2.IMREAD_GRAYSCALE)
-gray_hist = cv2.calcHist([Gray_image], [0], None, [256], [0, 256])
-equ_hist = cv2.calcHist([EQU_image], [0], None, [256], [0, 256])
-gray_hist = cv2.normalize(gray_hist, gray_hist).flatten()
-equ_hist = cv2.normalize(equ_hist, equ_hist).flatten()
-plt.figure()
-plt.title("Histogram Comparison")
-plt.xlabel("Grayscale Value")
-plt.ylabel("Pixel Count")
-plt.plot(gray_hist, color='blue', label='Gray Image Histogram')
-plt.plot(equ_hist, color='red', label='EQU Image Histogram')
-plt.legend()
-plt.show()
+plt.imshow(gray_image, cmap='gray')
+plt.title('Original Grayscale Image')
+plt.axis('off')
+```
+```
+# Load the color image
+image = cv2.imread('SPB Dark.jpg')
+# Convert the image to grayscale
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+plt.imshow(gray_image, cmap='gray')
+plt.title('Original Grayscale Image')
+plt.axis('off')
+```
+### Histogram of Grayscale Image:
+```
+hist_original = cv2.calcHist([gray_image], [0], None, [256], [0, 256])
+plt.plot(hist_original, color='black')
+plt.title('Original Histogram')
+plt.xlim([0, 256])
+
+```
+
+### Histogram Equalization of Grayscale Image:
+```
+# Apply histogram equalization
+equalized_image = cv2.equalizeHist(gray_image)
+plt.imshow(equalized_image, cmap='gray')
+plt.title('Equalized Image')
+plt.axis('off')
+hist_equalized = cv2.calcHist([equalized_image], [0], None, [256], [0, 256])
+plt.plot(hist_equalized, color='black')
+plt.title('Equalized Histogram')
+plt.xlim([0, 256])
 ```
 ## Output:
 
