@@ -26,8 +26,8 @@ The Histogram of gray scale image and color image is shown.
 
 ## Program:
 
-### Developed By: Sriram G
-### Register Number: 212222230149
+### Developed By: DEEPAK RAJ S
+### Register Number: 212222240023
 
 ```
 import cv2
