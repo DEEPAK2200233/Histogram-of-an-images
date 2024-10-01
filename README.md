@@ -84,7 +84,8 @@ plt.show()
 
 ### Histogram of Grayscale Image
 ![image](https://github.com/user-attachments/assets/84ef4a89-1fd3-4d8f-9975-fa07c8c6c80f)
-![image](https://github.com/user-attachments/assets/99eb6d15-0228-4fed-8487-1eb5a5a2872a)
+![WhatsApp Image 2024-10-01 at 10 06 18_c4f49bee](https://github.com/user-attachments/assets/ce3fb0db-b4cb-4623-acda-7a3ad1bb3a50)
+
 
 ### Histogram Equalization of Grayscale Image.
 ![image](https://github.com/user-attachments/assets/ad397612-ab58-4f71-8bfc-b4cf6f7d92d1)
