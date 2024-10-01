@@ -79,18 +79,18 @@ plt.show()
 ## Output:
 
 ### Input Image
-![image](https://github.com/user-attachments/assets/9f28b787-02bb-4768-a5df-d679f92988ea)
+![kamal3](https://github.com/user-attachments/assets/96d80c36-af17-4169-a757-6b751160dadf)
 
+![kamal1](https://github.com/user-attachments/assets/c8a8a9d2-8e7c-497a-b1f4-a5c790a0bdd8)
 
 ### Histogram of Grayscale Image
-![image](https://github.com/user-attachments/assets/84ef4a89-1fd3-4d8f-9975-fa07c8c6c80f)
-![WhatsApp Image 2024-10-01 at 10 06 18_c4f49bee](https://github.com/user-attachments/assets/ce3fb0db-b4cb-4623-acda-7a3ad1bb3a50)
+![image](https://github.com/user-attachments/assets/b0552179-d6f9-4a37-aad2-fa83c482d9e0)  ![image](https://github.com/user-attachments/assets/655e94fe-e223-4aad-a649-9dc2e0db9dca)
+
+
+![image](https://github.com/user-attachments/assets/9459c731-f1e5-4034-87f0-4b15e5cd4c80) ![image](https://github.com/user-attachments/assets/b288a5c2-a87a-4e03-ac98-1bb054e111af)
 
 
 ### Histogram Equalization of Grayscale Image.
-![image](https://github.com/user-attachments/assets/ad397612-ab58-4f71-8bfc-b4cf6f7d92d1)
-
-![image](https://github.com/user-attachments/assets/d4406218-0287-4645-ad87-407477e6c192)
 
 
 
